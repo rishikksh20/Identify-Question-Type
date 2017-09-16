@@ -1,0 +1,15 @@
+{
+  "input_file":"label.txt",
+  "model_json_file": "model.json",
+  "weights":"model_checkpoints.h5",
+  "GLOVE_EMBEDDING_PATH": "E:/Projects/Word2Vec/glove.42B.300d.txt",
+  "VECTORIZER_PATH": "vectorizer.pk",
+  "LABEL_ENCODER_PATH":"label_encoder.pk",
+  "MAX_NB_WORDS":20000,
+  "MAX_SEQUENCE_LENGTH":30,
+  "EPOCHS":20,
+  "BATCH_SIZE":128,
+  "LSTM_OUT":196,
+  "VALIDATION_SPLIT": 0.20,
+  "seed": 2017
+}

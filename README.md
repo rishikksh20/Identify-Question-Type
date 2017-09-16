@@ -46,3 +46,13 @@ All the json parameters above are self explanatory
 > python run.py  -q="What time does the train leave ?"
 
 You need to pass your question with `-q` argument from terminal/command prompt . And output is printed at terminal/cmd like this `Question Type : when`
+
+`analysis.ipynb` contains the initial classification analysis script, where I code different classifiers and compare them with each other, then select best model from them for training and testing. \
+For running `analysis.ipynb` you need all requirements mentioned above and `nltk = 3.2.1` with all english language add-on downloads.
+To dowload `nltk` related add-on downloads type 
+```
+import nltk
+nltk.download()
+```
+at python console. \
+For more info regarding `nltk` please visit [here](http://www.nltk.org/index.html).

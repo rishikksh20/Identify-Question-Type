@@ -47,6 +47,7 @@ All the json parameters above are self explanatory
 
 You need to pass your question with `-q` argument from terminal/command prompt . And output is printed at terminal/cmd like this `Question Type : when`
 
+## Analysis
 `analysis.ipynb` contains the initial classification analysis script, where I code different classifiers and compare them with each other, then select best model from them for training and testing. \
 For running `analysis.ipynb` you need all requirements mentioned above and `nltk = 3.2.1` with all english language add-on downloads.
 To dowload `nltk` related add-on downloads type 
